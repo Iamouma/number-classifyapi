@@ -18,7 +18,7 @@ https://number-classifyapi.vercel.app/
 
 🔹 **Example Endpoint:**
 ```
-https://number-classifyapi.vercel.app/api/classify-number?number=371
+https://number-classifyapi.vercel.app/api/classify-number?number=880
 ```
 
 ## API Endpoints
@@ -35,17 +35,19 @@ GET /api/classify-number?number={number}
 
 #### **Example Request:**
 ```
-GET /api/classify-number?number=371
+GET /api/classify-number?number=880
 ```
 #### **Success Response (200 OK):**
 ```json
 {
-    "number": 371,
+    "number": 880,
     "is_prime": false,
     "is_perfect": false,
-    "properties": ["armstrong", "odd"],
-    "digit_sum": 11,
-    "fun_fact": "371 is an Armstrong number because 3^3 + 7^3 + 1^3 = 371"
+    "properties": [
+        "even"
+    ],
+    "digit_sum": 16,
+    "fun_fact": "880 is the number of 4×4 magic squares."
 }
 ```
 #### **Error Response (400 Bad Request):**
