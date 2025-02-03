@@ -91,3 +91,8 @@ vercel --prod
 - **Axios** - HTTP client for fetching fun facts
 - **CORS** - Handling cross-origin requests
 
+## Additional Links
+Hire Node.js Developers: https://hng.tech/hire/nodejs-developers
+
+🎯 Author [Stepehen Ouma]
+
