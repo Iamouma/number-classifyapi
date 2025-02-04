@@ -1,4 +1,4 @@
-zee# Number Classification API
+# Number Classification API
 
 ## Overview
 The **Number Classification API** is a RESTful API that analyzes a given number and returns its mathematical properties, including whether it is prime, perfect, Armstrong, and odd/even. It also provides a fun fact about the number using the Numbers API.
